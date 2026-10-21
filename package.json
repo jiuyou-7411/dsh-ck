@@ -1,0 +1,83 @@
+{
+  "name": "dsh-skill-mcp-vault",
+  "version": "1.22.2",
+  "description": "仓库型插件：全局技能来源 + 全局 MCP 来源统一视图，技能与 MCP 都存在插件目录里",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiuyou-7411/dsh-ck.git"
+  },
+  "homepage": "https://github.com/jiuyou-7411/dsh-ck#readme",
+  "bugs": {
+    "url": "https://github.com/jiuyou-7411/dsh-ck/issues"
+  },
+  "type": "module",
+  "icon": "./assets/icon.svg",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.svg",
+    "./package.json": "./package.json",
+    "./client": "./lib/client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "skills",
+    "mcp",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "locale-data/*.json",
+    "assets/icon.svg",
+    "README.md",
+    "NOTICE",
+    "vendor"
+  ],
+  "scripts": {
+    "build": "node scripts/build-client.mjs",
+    "pack": "node scripts/pack.mjs",
+    "prepublishOnly": "node scripts/pack.mjs --guard",
+    "verify:pack": "npm run pack && node scripts/verify-pack.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-next",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "skills",
+    "mcp",
+    "skill-vault",
+    "mcp-vault"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-ui-primitives": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh-client-ui-primitives": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Skill & MCP Vault",
+    "description": "Keeps skills and MCP servers inside the plugin directory: install once, and the skills become readable while the MCP servers connect. Humans and agents can both add to it."
+  }
+}

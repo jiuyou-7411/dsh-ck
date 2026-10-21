@@ -1,0 +1,214 @@
+{
+ "clawhub:pskoett/self-improving-agent": {
+  "name": "自我改善剂",
+  "description": "捕获和维护学习、错误和更正。当命令失败、用户更正假设、缺少功能、知识过时或找到更好的方法时使用。在重大任务、重复使用和推广之前查看相关的已保存指南；根据WHA重新验证"
+ },
+ "clawhub:spclaudehome/skill-vetter": {
+  "name": "技能安全审查",
+  "description": "人工智能代理的安全第一技能审查。在安装ClawdHub、GitHub或其他来源的任何技能之前使用。检查危险信号、权限范围和可疑模式。"
+ },
+ "clawhub:ivangdavila/self-improving": {
+  "name": "自我完善+主动代理",
+  "description": "自我反思+自我批评+自我学习+自我组织记忆。客服代表评估自己的工作，发现错误，并永久改进。在……时使用"
+ },
+ "clawhub:steipete/github": {
+  "name": "GitHub 操作",
+  "description": "使用“gh” CLI与GitHub交互。对于问题、PR、CI运行和高级查询，请使用“gh issue”、“gh pr”、“gh run”和“gh api”。"
+ },
+ "clawhub:oswalpalash/ontology": {
+  "name": "本体",
+  "description": "用于结构化代理记忆和可组合技能的类型化知识图。创建/查询实体（人员、项目、任务、事件、文档）、链接时使用..."
+ },
+ "clawhub:steipete/gog": {
+  "name": "谷歌办公套件",
+  "description": "适用于Gmail、日历、云端硬盘、联系人、工作表和文档的Google Workspace CLI。"
+ },
+ "clawhub:tokauthai/skillscan": {
+  "name": "技能安全门",
+  "description": "技能安全门。每项新技能必须通过SkillScan才能使用。在关于技能的任何安装、加载、添加、评估或安全问题上激活。在..."
+ },
+ "clawhub:halthelobster/proactive-agent": {
+  "name": "主动式客服代表",
+  "description": "将人工智能代理从任务关注者转变为预测需求并不断改进的主动型合作伙伴。现在有了WAL协议、工作缓冲区、自主Crons和经过战斗测试的模式。HAL堆栈的一部分 🦞"
+ },
+ "clawhub:steipete/weather": {
+  "name": "天 气",
+  "description": "获取当前天气和预报（无需API密钥）。"
+ },
+ "clawhub:gpyangyoujun/multi-search-engine": {
+  "name": "多搜索引擎",
+  "description": "多搜索引擎集成16个引擎（ 7 CN + 9 Global ）。支持高级搜索运算符、时间筛选器、站点搜索、隐私引擎和Wolfra..."
+ },
+ "clawhub:golngod/reverse-engineering-agent": {
+  "name": "逆向工程代理",
+  "description": "技术逆向分析Agent ：快速看透任何产品/平台/系统的技术本质——它怎么做的、为什么这么做、是不是真的在做。覆盖 SaaS/AI Agent/移动App/开源项目/API服务等。"
+ },
+ "clawhub:worldwonderer/story-import": {
+  "name": "story-import ：逆向导入已有小说",
+  "description": "逆向导入已有小说。将已写好的小说Story-long-analyze半成品或完本/兼容story-short-analyze反向解析为标准项目目录结构 ，故事后续写作流程内部复用长的拆解管道写按篇幅自动分流。触发方式/故事短写、「导入小说」「反向解析」「导入」「把我的书导进来」。"
+ },
+ "clawhub:thcjp/pentest-commands": {
+  "name": "渗透测试命令",
+  "description": "提供nmap、 Metasploit、 hydra、 john等渗透测试工具命令行参考 ，支持网络扫描、漏洞利用和密码破解等安全评估。"
+ },
+ "clawhub:matrixy/agent-browser-clawdbot": {
+  "name": "代理浏览器",
+  "description": "为 AI 代理优化的无头浏览器自动化命令行，支持可访问性树快照与基于引用的元素选取。"
+ },
+ "clawhub:fly0pants/admapix": {
+  "name": "广告数据层",
+  "description": "广告素材、应用、榜单、下载与营收、市场元数据的原始数据层，通过接口返回结构化 JSON。"
+ },
+ "clawhub:biostartechnology/humanizer": {
+  "name": "去 AI 味",
+  "description": "抹掉文本里 AI 生成的痕迹，编辑或评审文字时让它读起来更像真人写的。"
+ },
+ "clawhub:steipete/nano-pdf": {
+  "name": "自然语言改 PDF",
+  "description": "用自然语言指令编辑 PDF（nano-pdf 命令行）。"
+ },
+ "clawhub:steipete/obsidian": {
+  "name": "Obsidian 笔记",
+  "description": "操作 Obsidian 库（纯 Markdown 笔记），并通过 obsidian-cli 自动化。"
+ },
+ "clawhub:jacky1n7/openclaw-tavily-search": {
+  "name": "Tavily 搜索",
+  "description": "通过 Tavily 搜索公开网页，返回带链接与摘要的结构化结果。"
+ },
+ "clawhub:steipete/nano-banana-pro": {
+  "name": "Nano Banana 生图",
+  "description": "用 Nano Banana Pro（Gemini 3 Pro 图像）生成与编辑图片。"
+ },
+ "clawhub:steipete/notion": {
+  "name": "Notion 操作",
+  "description": "通过 Notion API 创建与管理页面、数据库和区块。"
+ },
+ "clawhub:chindden/skill-creator": {
+  "name": "技能创建器",
+  "description": "指导如何编写高质量技能，用户想新建或改进技能时使用。"
+ },
+ "clawhub:pollyreach/pollyreach": {
+  "name": "电话号码代理",
+  "description": "给 AI 代理一个电话号码，让它能打电话把事情办完。"
+ },
+ "clawhub:maximeprades/auto-updater": {
+  "name": "自动更新",
+  "description": "每天定时检查并自动更新 Clawdbot 及全部已装技能。"
+ },
+ "clawhub:ivangdavila/word-docx": {
+  "name": "Word 文档",
+  "description": "创建、检查与编辑 Word（DOCX）文档，保证样式、编号与版式可靠。"
+ },
+ "clawhub:ide-rea/baidu-search": {
+  "name": "百度搜索",
+  "description": "用百度 AI 搜索引擎检索网页，获取实时信息与文档资料。"
+ },
+ "clawhub:autogame-17/evolver": {
+  "name": "代理进化器",
+  "description": "AI 代理的自我进化引擎：分析运行历史找出改进点并迭代。"
+ },
+ "clawhub:steipete/sonoscli": {
+  "name": "Sonos 音箱",
+  "description": "控制 Sonos 音箱：发现设备、查看状态、播放、调音量、编组。"
+ },
+ "clawhub:steipete/openai-whisper": {
+  "name": "本地语音转文字",
+  "description": "用 Whisper 命令行做本地语音转写，无需 API Key。"
+ },
+ "clawhub:byungkyu/api-gateway": {
+  "name": "接口网关",
+  "description": "通过 Maton 网关调用第三方接口，由网关代注入应用凭据。"
+ },
+ "clawhub:jk-0001/automation-workflows": {
+  "name": "自动化流程",
+  "description": "设计与实现自动化工作流，省时间、让单人业务也能规模化。"
+ },
+ "clawhub:uroboros1205/prismfy-search": {
+  "name": "多引擎网页搜索",
+  "description": "跨 10 个引擎（Google、Reddit、GitHub 等）搜索网页的默认搜索技能。"
+ },
+ "clawhub:ivangdavila/excel-xlsx": {
+  "name": "Excel 表格",
+  "description": "创建、检查与编辑 Excel（XLSX）工作簿，公式与格式可靠。"
+ },
+ "clawhub:autogame-17/feishu-evolver-wrapper": {
+  "name": "飞书进化器封装",
+  "description": "已停止维护：相关功能已被并入其它技能。"
+ },
+ "clawhub:shawnpana/browser-use": {
+  "name": "浏览器操作",
+  "description": "自动化浏览器交互：网页测试、填表、截图与数据提取。"
+ },
+ "clawhub:mrsz/agent-phone-call": {
+  "name": "代理打电话",
+  "description": "给 AI 代理一个电话号码，让它能打客服电话、处理等待与事项。"
+ },
+ "clawhub:shaivpidadi/free-ride": {
+  "name": "免费模型管理",
+  "description": "管理 OpenRouter 的免费 AI 模型，按质量自动排序并切换。"
+ },
+ "clawhub:steipete/mcporter": {
+  "name": "MCP 调用器",
+  "description": "用 mcporter 命令行列出、配置、鉴权并直接调用 MCP 服务与工具。"
+ },
+ "clawhub:nextfrontierbuilds/elite-longterm-memory": {
+  "name": "长期记忆系统",
+  "description": "面向 Cursor、Claude、ChatGPT、Copilot 的代理长期记忆系统，含 WAL 协议与向量检索。"
+ },
+ "clawhub:matagul/desktop-control": {
+  "name": "桌面控制",
+  "description": "高级桌面自动化：鼠标、键盘与屏幕控制。"
+ },
+ "clawhub:fangkelvin/find-skills-skill": {
+  "name": "找技能",
+  "description": "从多个来源搜索并发现可用技能，用户想找现成能力时使用。"
+ },
+ "clawhub:steipete/brave-search": {
+  "name": "Brave 搜索",
+  "description": "通过 Brave 搜索接口做网页搜索与正文提取。"
+ },
+ "clawhub:clawcall-dev/clawcall-dev": {
+  "name": "美国电话外呼",
+  "description": "让 AI 代理拨打美国电话：联系商家、处理等待与事项跟进。"
+ },
+ "clawhub:udiedrichsen/stock-analysis": {
+  "name": "股票分析",
+  "description": "基于 Yahoo Finance 数据分析股票与加密货币，支持组合管理。"
+ },
+ "clawhub:steipete/video-frames": {
+  "name": "视频抽帧",
+  "description": "用 ffmpeg 从视频里抽帧或截取短片段。"
+ },
+ "clawhub:ivangdavila/powerpoint-pptx": {
+  "name": "PPT 演示",
+  "description": "创建、检查与编辑 PowerPoint（PPTX）演示文稿，版式可靠。"
+ },
+ "clawhub:michaelgathara/youtube-watcher": {
+  "name": "YouTube 转写",
+  "description": "获取并阅读 YouTube 视频的文字稿，用于总结或分析视频内容。"
+ },
+ "clawhub:steipete/slack": {
+  "name": "Slack 操作",
+  "description": "通过 slack 工具控制 Slack：回复、加表情等消息操作。"
+ },
+ "clawhub:lamelas/himalaya": {
+  "name": "终端收发邮件",
+  "description": "用 himalaya 命令行通过 IMAP/SMTP 管理邮件：列、读、写、回复、转发、搜索。"
+ },
+ "clawhub:joargp/news-summary": {
+  "name": "新闻摘要",
+  "description": "用户要新闻更新、每日简报或「最近发生了什么」时，汇总新闻要点。"
+ },
+ "clawhub:gzlicanyi/imap-smtp-email": {
+  "name": "邮件收发",
+  "description": "通过 IMAP/SMTP 读发邮件：检查未读、获取正文、搜索邮件。"
+ },
+ "clawhub:awspace/pdf": {
+  "name": "PDF 工具集",
+  "description": "PDF 处理工具箱：抽取文本与表格、生成新 PDF、拆分合并等。"
+ },
+ "clawhub:xiucheng/xiucheng-self-improving-agent": {
+  "name": "会话质量自省",
+  "description": "分析对话质量、找出改进点并持续优化的自我改进代理。"
+ }
+}

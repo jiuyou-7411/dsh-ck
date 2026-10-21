@@ -1,0 +1,114 @@
+{
+ "clawhub:pskoett/self-improving-agent": {
+  "name": "自我改善剂",
+  "description": "捕获和维护学习、错误和更正。当命令失败、用户更正假设、缺少功能、知识过时或找到更好的方法时使用。在重大任务、重复使用和推广之前查看相关的已保存指南；根据WHA重新验证"
+ },
+ "clawhub:spclaudehome/skill-vetter": {
+  "name": "",
+  "description": "人工智能代理的安全第一技能审查。在安装ClawdHub、GitHub或其他来源的任何技能之前使用。检查危险信号、权限范围和可疑模式。"
+ },
+ "clawhub:ivangdavila/self-improving": {
+  "name": "自我完善+主动代理",
+  "description": "自我反思+自我批评+自我学习+自我组织记忆。客服代表评估自己的工作，发现错误，并永久改进。在……时使用"
+ },
+ "clawhub:steipete/github": {
+  "name": "",
+  "description": "使用“gh” CLI与GitHub交互。对于问题、PR、CI运行和高级查询，请使用“gh issue”、“gh pr”、“gh run”和“gh api”。"
+ },
+ "clawhub:oswalpalash/ontology": {
+  "name": "本体",
+  "description": "用于结构化代理记忆和可组合技能的类型化知识图。创建/查询实体（人员、项目、任务、事件、文档）、链接时使用..."
+ },
+ "clawhub:steipete/gog": {
+  "name": "",
+  "description": "适用于Gmail、日历、云端硬盘、联系人、工作表和文档的Google Workspace CLI。"
+ },
+ "clawhub:tokauthai/skillscan": {
+  "name": "",
+  "description": "技能安全门。每项新技能必须通过SkillScan才能使用。在关于技能的任何安装、加载、添加、评估或安全问题上激活。在..."
+ },
+ "clawhub:halthelobster/proactive-agent": {
+  "name": "主动式客服代表",
+  "description": "将人工智能代理从任务关注者转变为预测需求并不断改进的主动型合作伙伴。现在有了WAL协议、工作缓冲区、自主Crons和经过战斗测试的模式。HAL堆栈的一部分 🦞"
+ },
+ "clawhub:steipete/weather": {
+  "name": "天 气",
+  "description": "获取当前天气和预报（无需API密钥）。"
+ },
+ "clawhub:gpyangyoujun/multi-search-engine": {
+  "name": "多搜索引擎",
+  "description": "多搜索引擎集成16个引擎（ 7 CN + 9 Global ）。支持高级搜索运算符、时间筛选器、站点搜索、隐私引擎和Wolfra..."
+ },
+ "clawhub:golngod/reverse-engineering-agent": {
+  "name": "逆向工程代理",
+  "description": "技术逆向分析Agent ：快速看透任何产品/平台/系统的技术本质——它怎么做的、为什么这么做、是不是真的在做。覆盖 SaaS/AI Agent/移动App/开源项目/API服务等。"
+ },
+ "clawhub:worldwonderer/story-import": {
+  "name": "story-import ：逆向导入已有小说",
+  "description": "逆向导入已有小说。将已写好的小说Story-long-analyze半成品或完本/兼容story-short-analyze反向解析为标准项目目录结构 ，故事后续写作流程内部复用长的拆解管道写按篇幅自动分流。触发方式/故事短写、「导入小说」「反向解析」「导入」「把我的书导进来」。"
+ },
+ "clawhub:thcjp/pentest-commands": {
+  "name": "渗透测试命令",
+  "description": "提供nmap、 Metasploit、 hydra、 john等渗透测试工具命令行参考 ，支持网络扫描、漏洞利用和密码破解等安全评估。"
+ },
+ "obra/superpowers:brainstorming": {
+  "name": "头脑风暴",
+  "description": "在任何创意工作之前，您必须使用它-创建功能、构建组件、添加功能、修改行为或规划软件中或软件之外的任何新事物（谈话、业务、翻新）。"
+ },
+ "obra/superpowers:diagnosing-superpowers": {
+  "name": "",
+  "description": "当超级大国会话出错并且您的人类伴侣想知道原因时使用—重复工作，忽略计划，绊倒，结果不佳，没有激活的技能， “花费太长时间” ， “为什么如此昂贵” ， “它在做什么” —或者想要为超级大国维护者构建错误报告，用于当前会话或通过ID或路径标识的过去会话，在任何线束上。"
+ },
+ "obra/superpowers:dispatching-parallel-agents": {
+  "name": "",
+  "description": "在面对2个以上的独立任务时使用，这些任务可以在没有共享状态或顺序依赖的情况下工作"
+ },
+ "obra/superpowers:executing-plans": {
+  "name": "",
+  "description": "在当前会话中作为实施者自己执行实施计划时使用—您的人类合作伙伴选择了内联执行，或者没有可用的子代理工具"
+ },
+ "obra/superpowers:finishing-a-development-branch": {
+  "name": "",
+  "description": "在实施完成、所有测试通过时使用，您需要决定如何集成工作"
+ },
+ "obra/superpowers:receiving-code-review": {
+  "name": "",
+  "description": "在实施建议之前，在接收代码审查反馈时使用，特别是在反馈似乎不清楚或技术上存在疑问时使用-需要技术严谨性和验证，而不是执行协议或盲目实施"
+ },
+ "obra/superpowers:requesting-code-review": {
+  "name": "",
+  "description": "在完成任务、实施主要功能或合并前使用，以验证工作是否符合要求"
+ },
+ "obra/superpowers:subagent-driven-development": {
+  "name": "",
+  "description": "在当前会话中执行具有独立任务的实施计划时使用"
+ },
+ "obra/superpowers:systematic-debugging": {
+  "name": "",
+  "description": "在提出修复建议之前，请在遇到任何错误、测试失败或意外行为时使用"
+ },
+ "obra/superpowers:test-driven-development": {
+  "name": "测试驱动开发",
+  "description": "在编写实现代码之前，在实现任何功能或错误修复时使用"
+ },
+ "obra/superpowers:using-git-worktrees": {
+  "name": "",
+  "description": "在开始需要与当前工作区隔离的功能工作时或在执行实施计划之前使用-确保通过本机工具或git工作树回退存在隔离的工作区"
+ },
+ "obra/superpowers:using-superpowers": {
+  "name": "",
+  "description": "在开始任何对话时使用-确定如何查找和使用技能，要求在任何回复之前进行技能调用，包括澄清问题"
+ },
+ "obra/superpowers:verification-before-completion": {
+  "name": "",
+  "description": "在提交或创建PR之前，在即将声明工作已完成、已修复或已通过时使用-需要在提出任何成功声明之前运行验证命令并确认输出；始终在断言之前提供证据"
+ },
+ "obra/superpowers:writing-plans": {
+  "name": "",
+  "description": "在触摸代码之前，当您对多步骤任务有规格或要求时使用"
+ },
+ "obra/superpowers:writing-skills": {
+  "name": "写作技能",
+  "description": "在部署前创建新技能、编辑现有技能或验证技能工作时使用"
+ }
+}

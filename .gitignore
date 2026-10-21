@@ -1,0 +1,12 @@
+node_modules/
+.pack/
+.tmp-verify/
+.tmp-test/
+.tmp-smoke/
+*.tgz
+*.sha256
+lib/client.previous.js
+lib/client.staging.js
+mcp/.backups/
+skills/.backups/
+skills/.trash/

@@ -1,0 +1,26 @@
+dsh-skill-mcp-vault
+Copyright (c) 2026 jiuyou-7411
+
+This product includes third-party software:
+
+================================================================================
+vendor/skills-manager/
+================================================================================
+
+  Name     : DSH Skills Manager (@michengai/dsh-skills-manager)
+  Upstream : https://github.com/MichengAI/dsh-skills-manager
+  License  : Apache License 2.0
+  Full text: vendor/skills-manager/LICENSE
+
+  The files under vendor/skills-manager/ are a bundled copy of the upstream
+  project, included so that the /api/dsh-skills-manager/* host routes are
+  served by this plugin instead of requiring a separate installation.
+
+  Modifications: the copy is embedded unmodified in substance; the surrounding
+  loader in lib/index.js imports it directly. Any local adaptation is limited
+  to module placement, not to the licensing-relevant logic.
+
+  Apache License 2.0 requires that this NOTICE and the license text be
+  retained when redistributing the work or derivative works.
+
+================================================================================

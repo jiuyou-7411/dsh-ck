@@ -1,0 +1,14 @@
+# 只发布运行时需要的东西。package.json 的 files 是白名单，
+# 这里再排掉白名单目录里的"本地状态"和"构建中间产物"，否则别人装到的包里会带回收站和备份。
+**/.trash
+**/.backups
+lib/client.previous.js
+lib/client.staging.js
+lib/.client-build.json
+
+# 开发用，不进包（files 已经没列，这里再兜一层）
+src
+scripts
+node_modules
+*.log
+.DS_Store

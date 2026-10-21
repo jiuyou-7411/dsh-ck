@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "serverName": "rea",
+      "transport": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "rea-agents@latest",
+        "mcp"
+      ],
+      "env": {},
+      "cwd": "",
+      "toolCallTimeoutMs": 60000,
+      "failOnStartupError": false,
+      "enabled": true
+    }
+  ]
+}

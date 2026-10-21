@@ -1,0 +1,9 @@
+# dsh-skill-mcp-vault bundle patch.
+#
+# One host row owns both repositories: `skills/` and `mcp/mcp.json` inside this
+# package. The host half registers the skill provider and creates one
+# `@deepseek-ai/dsh-mcp-client` row per catalogue entry, so a catalogue change
+# reloads exactly that row and never this one.
+- insert:
+    - id: skill-mcp-vault
+      name: 'dsh-skill-mcp-vault'
